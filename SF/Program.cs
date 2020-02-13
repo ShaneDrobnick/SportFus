@@ -11,6 +11,7 @@ namespace SF
 
             //Would not have this hardcoded, typically would pull from DB  
             //you could have it as console argument but key would be annoying
+            //But normally would not hardcode these 3
             string fileName = "output.csv";
             string APIKey = "j1zHbAwDsYNo4sR9FpInRVzIX8698p9JxomI";
          

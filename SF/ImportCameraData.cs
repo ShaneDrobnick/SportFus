@@ -20,8 +20,6 @@ namespace SF
 
         public async Task<TrafficCameras> GetTrafficCameraData()
         {
-            //Would not have this hardcoded, typically would pull from DB same with the Url
-            //string APIKey = "j1zHbAwDsYNo4sR9FpInRVzIX8698p9JxomI";
             TrafficCameras trafficCameras = new TrafficCameras();
 
             using var client = new HttpClient();
